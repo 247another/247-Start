@@ -1,3 +1,4 @@
 
 nano ~/.termux/termux.properties
+cmatrix
 extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
