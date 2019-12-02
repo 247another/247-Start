@@ -1,0 +1,5 @@
+pkg install nano
+
+mkdir -p ~/.termux
+
+nano ~/.termux/termux.properties
