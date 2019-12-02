@@ -1,8 +1,8 @@
 apt upgrade -y
 apt upgrade -y
-apt instal wget -y
+apt install wget -y
 apt install curl
-apt instal openssh
+apt install openssh
 pkg install sl
 apt install python -y
 apt install python2 -y
