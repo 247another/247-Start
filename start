@@ -1,6 +1,9 @@
 termux-setup-storage
-pkg update && pkg upgrade && touch .hushlogin && pkg install openssh fish wget curl python python2 sl  cmake nodejs ruby golang nmap hydra tsu cmatrix figlet -y
-sl
+pkg update -y && pkg upgrade -y && touch .hushlogin -y && pkg install openssh fish wget curl unstable-repo python python2 sl cmake nodejs ruby nmap hydra tsu cmatrix figlet -y
+pkg install metasploit -y
+sl && sl
+fish
 clear
-figlet 247
+figlet ~~~`247`~~~
+uname -m
 cmatrix
