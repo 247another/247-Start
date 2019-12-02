@@ -1,13 +1,6 @@
 termux-setup-storage
-apt upgrade -y
-apt upgrade -y
-apt install wget -y
-apt install curl -y
-apt install openssh
-pkg install sl -y
-apt install python -y
-apt install python2 -y
-apt install nmap -y
-apt install hydra -y
-pkg upgrade && touch .hushlogin && pkg install python cmake nodejs ruby golang nmap hydra tsu -y
-pkg update && pkg upgrade -y && pkg install wget curl openssh git -y
+pkg update && pkg upgrade && touch .hushlogin && pkg install openssh fish wget curl python python2 sl  cmake nodejs ruby golang nmap hydra tsu cmatrix figlet -y
+sl
+clear
+figlet 247
+cmatrix
