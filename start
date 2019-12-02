@@ -4,7 +4,6 @@ pkg install openssh fish wget curl unstable-repo python python2 sl cmake nodejs 
 pkg install metasploit -y
 sl && sl
 fish
-clear
 figlet 247
 uname -m
 cmatrix
