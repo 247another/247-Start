@@ -1,0 +1,6 @@
+apt upgrade && apt upgrade -y
+apt install get -y
+apt instal weget -y
+apt install curl
+apt instal openssh
+pkg install sl
