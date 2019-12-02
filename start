@@ -1,8 +1,18 @@
 termux-setup-storage
-pkg update -y && pkg upgrade -y && touch .hushlogin -y 
+1
+
+
+
+
+
+
+
+pkg install root-repo
+
+pkg update -y && pkg upgrade -y && touch .hushlogin
+
 pkg install openssh fish wget curl unstable-repo python python2 sl cmake nodejs ruby nmap hydra tsu cmatrix figlet -y
 pkg install metasploit -y
-sl && sl
 fish
 figlet 247
 uname -m
