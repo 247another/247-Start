@@ -1,3 +1,6 @@
+termux-setup-storage
+pkg update -y && pkg upgrade -y && touch .hushlogin
+pkg install root-repo -y
 
 pkg install sl -y
 pkg install tsu -y
@@ -5,5 +8,13 @@ pkg install figlet -y
 pkg install cmatrix -y
 pkg install zip -y
 pkg install unrar -y
+pkg install nano -y
+pkg install python -y
+pkg install python2 -y
+pkg install openssh -y
+pkg install wget -y
+pkg install metasploit -y
+pkg install curl -y
+pkg install ruby -y
 figlet 247
 cmatrix
