@@ -1,7 +1,7 @@
 termux-setup-storage
 pkg update -y && pkg upgrade -y && touch .hushlogin
 pkg install root-repo -y
-
+pkg install fish -y
 pkg install sl -y
 pkg install tsu -y
 pkg install figlet -y
