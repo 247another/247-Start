@@ -1,0 +1,9 @@
+
+pkg install sl -y
+pkg install tsu -y
+pkg install figlet -y
+pkg install cmatrix -y
+pkg install zip -y
+pkg install unrar -y
+figlet 247
+cmatrix
