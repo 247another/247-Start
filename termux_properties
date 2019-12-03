@@ -1,4 +1,4 @@
-pkg install nano
+
 mkdir -p ~/.termux
 nano ~/.termux/termux.properties
-extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]
+extra-keys = [['ESC','ALT','HOME','/','-','UP','END'],['TAB','CTRL','PGUP','PGDN','LEFT','DOWN','RIGHT']]
